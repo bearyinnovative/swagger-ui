@@ -114,6 +114,7 @@ export default class Operations extends React.Component {
                         const method = op.get("method")
 
                         return <OperationContainer
+                          allowTryItOut={false}
                           key={`${path}-${method}`}
                           op={op}
                           path={path}
