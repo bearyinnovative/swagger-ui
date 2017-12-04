@@ -202,9 +202,11 @@ $table-parameter-deprecated-font-color: $color-danger !default;
 
 // Topbar
 
+$topbar-height: 75px;
+
 $topbar-background-color: $color-primary !default;
 
-$topbar-link-font-color: $white !default;
+$topbar-link-font-color: $gray-300 !default;
 
 $topbar-download-url-wrapper-element-border-color: #547f00 !default;
 

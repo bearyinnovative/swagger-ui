@@ -1,8 +1,9 @@
 .topbar
 {
-    padding: 8px 0;
+    height: $topbar-height;
+    line-height: $topbar-height;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
 
-    background-color: $topbar-background-color;
     .topbar-wrapper
     {
         display: flex;
@@ -16,8 +17,6 @@
         display: flex;
         align-items: center;
         flex: 1;
-
-        max-width: 300px;
 
         text-decoration: none;
 
